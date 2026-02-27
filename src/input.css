@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/Lato-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+.container-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.dropsvg svg {
+    width: 7px;
+    height: 7px;
+    display: inline;
+}
+
+.body-text {
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 45px !important;
+    color: #2b2b2b !important;
+    text-align: center;
+    font-style: normal!important;
+}
+h4 {
+    font-size: 17px;
+    /* text-align: center; */
+    line-height: 1.2;
+    font-weight: 700;
+    color: #2b2b2b;
+
+   font-family: "Outfit", sans-serif;
+}
+.sub-title {
+    color:  #2b2b2b;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonialsBlock svg{
+  width: 40px;
+  height: 40px;
+}

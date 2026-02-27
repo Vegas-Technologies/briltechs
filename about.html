@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body >
+
+  <!-- Header -->
+  <header>
+    <nav class="fixed top-0 left-0 right-0 z-[100] bg-white shadow-sm">
+      <div class="container-custom py-4 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2 no-underline">
+          <img src="./img/briltechslogo.png" alt="" class="w-[150px] object-cover">
+        </a>
+        <!-- Desktop Nav -->
+        <ul class="hidden md:flex list-none gap-8 m-0 p-0">
+          <li><a href="/"
+              class="text-black no-underline text-xs font-semibold tracking-[0.5px] transition-colors hover:text-[#f44336]">HOME</a>
+          </li>
+          <li><a href="/about.html"
+              class="text-black no-underline text-xs font-semibold tracking-[0.5px] transition-colors hover:text-[#f44336]">ABOUT
+              US</a></li>
+          <li><a href="/services.html"
+              class="text-black no-underline text-xs font-semibold tracking-[0.5px] transition-colors hover:text-[#f44336]">OUR
+              SERVICES</a></li>
+          <li><a href="/contact.html"
+              class="text-black no-underline text-xs font-semibold tracking-[0.5px] transition-colors hover:text-[#f44336]">CONTACT
+              US</a></li>
+        </ul>
+
+        <!-- Mobile Toggle Button -->
+        <button id="menu-btn" class="md:hidden bg-transparent border-none text-black cursor-pointer">
+          <!-- Hamburger Icon -->
+          <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 block" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+
+          <!-- Close Icon -->
+          <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden flex-col bg-white px-6 py-4 gap-3 shadow-md md:hidden">
+        <a href="/" class="text-black no-underline text-base font-semibold py-2 border-b">HOME</a>
+        <a href="/about.html" class="text-black no-underline text-base font-semibold py-2 border-b">ABOUT US</a>
+        <a href="/services.html" class="text-black no-underline text-base font-semibold py-2 border-b">OUR
+          SERVICES</a>
+        <a href="/contact.html" class="text-black no-underline text-base font-semibold py-2 border-b">CONTACT
+          US</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="mt-16 bg-white py-16 px-6">
+    <div class="container-custom">
+      <h1 class=" !text-[36px] md:!text-[55px] font-extrabold mb-6">About Us</h1>
+      <p class="text-lg leading-normal mb-6">
+        Brilliant Technologies is a next-generation IT solutions provider committed to delivering innovative, secure,
+        and scalable digital services. We specialize in <strong>managed IT, cloud solutions, cybersecurity, and software
+          development</strong>, serving startups, SMEs, and enterprises across industries. Our approach blends
+        technology expertise with business understanding to help clients <strong>reduce costs, improve efficiency, and
+          accelerate growth</strong>.
+      </p>
+
+      <h3 class="text-lg font-bold mb-3">Who We Are, What We Do, Who We Serve</h3>
+      <ul class="list-disc pl-5 text-lg  leading-normal space-y-1 mb-4">
+        <li><strong>Who we are:</strong> A team of IT strategists, engineers, and support professionals with 10+ years
+          of experience.</li>
+        <li><strong>What we do:</strong> Provide end-to-end IT solutions including network management, cloud migration,
+          cybersecurity, and business process automation.</li>
+        <li><strong>Who we serve:</strong> Businesses across finance, healthcare, retail, manufacturing, and
+          professional services that want reliable and future-ready IT.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="border-t border-gray-200"></div>
+
+  <!-- Our Mission -->
+  <section class="bg-[#14171c] py-20 ">
+    <div class="container-custom">
+      <div class="flex flex-wrap gap-10 items-center">
+        <div class="w-full md:w-[48%]">
+          <h2 class="text-3xl font-semibold mb-10 !text-left !text-white">Our Mission</h2>
+          <p class="text-lg leading-normal mb-12 !text-white">
+            Our mission is to <strong>empower businesses with technology that drives productivity, security, and
+              growth</strong>. We aim to simplify IT for our clients so they can focus on their core business.
+          </p>
+          <p class="text-lg leading-normal mb-12 !text-white">
+            The purpose of Brilliant Technologies is to bridge the gap between complex technology and real business
+            needs. We exist to <strong>make technology simple, affordable, and impactful</strong>.
+          </p>
+          <button
+            class="bg-[#fcaf3b] text-white px-6 py-2.5 rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+            LET'S TALK
+          </button>
+        </div>
+        <div class="w-full md:w-[48%]">
+          <img src="./img/neve-web-design-bg-12.jpg" alt="Our Mission" class="w-full  object-cover rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Values -->
+  <section class="bg-white py-16">
+    <div class="container-custom">
+      <div class="flex flex-wrap gap-6 items-center  ">
+        <div class="w-full md:w-[48%]">
+          <img src="./img/neve-web-design-bg-09.jpg" alt="Our Values" class="w-full object-cover rounded">
+        </div>
+        <div class="w-full md:w-[48%]">
+          <h2 class="text-3xl font-semibold mb-10 !text-left">Our Values</h2>
+
+          <div class="space-y-6 text-lg leading-normal">
+            <p><strong class="text-black">Integrity</strong> – We believe in complete transparency and honesty in every engagement. Our clients trust us because we always deliver on our promises with ethical business practices.</p>
+            <p><strong class="text-black">Innovation</strong> –  Technology never stands still, and neither do we. By adopting the latest tools and strategies, we ensure our clients are always ahead of the curve.
+            </p>
+            <p><strong class="text-black">Customer First</strong> – Every solution we design revolves around your goals. We listen, understand, and tailor our services to meet your unique business needs..</p>
+            <p><strong class="text-black">Excellence</strong> – From planning to execution, we maintain the highest quality standards. Our focus is on delivering measurable results that add real value to your business.</p>
+            <p><strong class="text-black">Collaboration</strong> – We see ourselves as partners, not just service providers. Building long-term, trust-based relationships is at the heart of everything we do.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section class="bg-[#14171c] py-16 px-6">
+    <div class="container-custom">
+      <h2 class="text-[30px] font-extrabold !text-white mb-6 !text-left">Our Story</h2>
+      <p class="text-base text-gray-300 leading-relaxed mb-6">
+       Brilliant Technologies started with a vision to help small businesses adopt enterprise-grade IT solutions without high costs. From our humble beginnings as a small consultancy, we’ve grown into a trusted IT partner serving clients across industries.
+      </p>
+
+      <h4 class="text-2xl font-bold text-white mb-3">Milestones:</h4>
+      <ul class="list-disc pl-5 text-base text-gray-300 leading-loose space-y-1 mb-6">
+        <li><strong>2015</strong> – Founded with a focus on IT support and networking.</li>
+        <li><strong>2017</strong> – Expanded into cloud and data migration services.</li>
+        <li><strong>2019</strong> – Launched cybersecurity and compliance solutions.</li>
+        <li><strong>2022</strong> – Partnered with global tech leaders to deliver enterprise-level services.</li>
+        <li><strong>Today</strong> – Serving 100+ clients with tailored IT solutions worldwide.</li>
+      </ul>
+
+      <h4 class="text-2xl font-bold text-white mb-3">Unique Selling Points</h4>
+      <ul class="list-disc pl-5 text-base text-gray-300 leading-loose space-y-1">
+        <li>Customized IT solutions, not one-size-fits-all.</li>
+        <li>24/7 proactive monitoring & support.</li>
+        <li>Competitive, transparent pricing models.</li>
+        <li>Expertise across multiple industries.</li>
+        <li>Strong focus on cybersecurity and compliance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Traits -->
+  <section class="bg-white py-16 px-6">
+    <div class="container-custom">
+      <div class="flex flex-wrap gap-6">
+          <!-- Item 1 -->
+          <div class="w-full md:w-[30%]">
+              <div class="w-14 h-14 rounded-full mb-6 ">
+                <img src="./img/neve-webdesign-GB-03.png" alt="tick">
+            </div>
+            <h4 class="text-xl font-bold mb-6">Super Efficient</h4>
+            <p class="text-base text-gray-600 leading-relaxed">We ensure swift and precise delivery for every project, maximizing your time and investment.</p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="w-full md:w-[30%]">
+              <div class="w-14 h-14 rounded-full mb-6">
+                <img src="./img/neve-webdesign-GB-03.png" alt="tick">
+            </div>
+            <h4 class="text-xl font-bold mb-6">Deeply Committed</h4>
+            <p class="text-base text-gray-600 leading-relaxed">Dedicated to your success, we provide tailored support and insights.</p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="w-full md:w-[30%]">
+            <div class="w-14 h-14 rounded-full mb-6">
+                <img src="./img/neve-webdesign-GB-03.png" alt="tick">
+            </div>
+            <h4 class="text-xl font-bold mb-6">Highly Skilled</h4>
+            <p class="text-base text-gray-600 leading-relaxed">Our team brings top-tier expertise in web technology, crafting innovative solutions.</p>
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+
+  
+
+ <footer class="bg-[#14171c] ">
+
+    <!-- Main Footer Content -->
+    <div class="container-custom  py-24">
+
+      <div class="flex flex-wrap md: gap-6 lg:gap-24  ">
+        <!-- About Us -->
+        <div class="w-full md:w-[47%] lg:w-[44%]">
+          <h3 class="text-2xl font-bold mb-4 !text-white">About us</h3>
+          <p class="text-lg leading-normal !text-white">
+            At Brilliant Technologies, we turn ideas into impactful digital experiences. Our passion for
+            creativity and precision drives us to deliver web solutions that not only meet your needs — they
+            exceed expectations. Whether you're launching a startup or scaling an enterprise, we're your trusted
+            partner in the digital era.
+          </p>
+        </div>
+
+        <!-- Get in Touch -->
+        <div class="w-full md:w-[47%] lg:w-[44%]">
+          <h3 class="text-2xl font-bold mb-4 !text-white">Get in touch</h3>
+          <p class="text-lg leading-relaxed mb-3 !text-white">
+            Have a question or a project in mind? We’d love to hear from you. Whether you’re looking for guidance,
+            feedback, or ready to get started, we’re just one message away.
+          </p>
+          <p class="text-lg leading-relaxed mb-1 !text-white">
+            Reach out to us via email, phone, or connect on social media — and we’ll get back to you promptly.
+          </p>
+
+          <p class="text-lg mt-3 !text-white">
+            Email:
+            <a href="mailto:hello@briltechs.com" class="!text-white text-decoration-underline hover:underline">
+              hello@briltechs.com
+            </a>
+          </p>
+
+          <p class="text-base !text-white">
+            Phone: +1 (123) 456-7890
+          </p>
+
+          <!-- Social Icons -->
+          <div class="flex gap-3 mt-4">
+
+            <!-- Facebook -->
+            <a href="#"
+              class="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12H17l-.4 3h-2.3v7A10 10 0 0022 12z" />
+              </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a href="#"
+              class="w-9 h-9 rounded-full bg-sky-500 flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22 5.9c-.8.4-1.6.6-2.4.8a4.2 4.2 0 001.8-2.3c-.8.5-1.8.9-2.8 1.1a4.1 4.1 0 00-7 3.8A11.7 11.7 0 013 4.9a4.1 4.1 0 001.3 5.5c-.7 0-1.3-.2-1.9-.5v.1a4.1 4.1 0 003.3 4 4.3 4.3 0 01-1.9.1 4.1 4.1 0 003.8 2.8A8.3 8.3 0 012 19.5a11.7 11.7 0 006.3 1.8c7.5 0 11.6-6.2 11.6-11.6v-.5c.8-.6 1.5-1.3 2.1-2.1z" />
+              </svg>
+            </a>
+
+            <!-- Google -->
+            <a href="#"
+              class="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+              <span class="text-base font-bold">G</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="  py-5 ">
+      <div class="container-custom">
+        <div class="flex flex-wrap justify-between items-center">
+
+          <!-- Logo -->
+          <a href="/" class="flex items-center gap-2 no-underline">
+            <img src="./img/briltechslogo.png" alt="">
+          </a>
+
+          <!-- Navigation -->
+          <nav class="flex flex-col md:flex-row gap-6">
+            <a href="/" class=" text-base font-medium  !text-white hover:text-white transition-colors">Home</a>
+            <a href="/about.html" class=" text-base font-medium !text-white hover:text-white transition-colors">About Us</a>
+            <a href="/services.html" class=" text-base font-medium !text-white hover:text-white transition-colors">Our
+              Services</a>
+            <a href="/contact.html" class=" text-base font-medium !text-white hover:text-white transition-colors">Contact</a>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Toggle Script -->
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const menuIcon = document.getElementById("menu-icon");
+    const closeIcon = document.getElementById("close-icon");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+      mobileMenu.classList.toggle("flex");
+      menuIcon.classList.toggle("hidden");
+      closeIcon.classList.toggle("hidden");
+    });
+  </script>
+</body>
+
+</html>
